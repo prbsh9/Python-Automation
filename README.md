@@ -1,8 +1,9 @@
 # Some automation using selenium
 <br>
 
-<h2> Libraries  used: </h2>
+<h2> Libraries used/ Dependencies: </h2>
 <ul>
+    <li><h4> Selenium driver for browser you wanna use. like ChromeDriver for chrome </h4></li>
     <li><h4> Selenium </h4></li>
     <li><h4>Beautipul Soup 4 (bs4)</h4> </li>
     <li><h4> requests </h4></li>
