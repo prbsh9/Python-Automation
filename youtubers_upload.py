@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
 import time
 
 
@@ -62,11 +61,11 @@ favourateYoutubers = [ashish_chanchlani, bb_ki_vines, physicsGirl]
 
 video_haru = favYoutubersVid(favourateYoutubers, 3)
 
-time.sleep(4)
+# time.sleep(4)
 # For opening videos:
-for l in video_haru:
-    driver = webdriver.Chrome('C:/Users/pk202/OneDrive/Desktop/chromedriver/chromedriver.exe')
-    driver.get(l)
-    videlem = driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button')
-    time.sleep(2)
-    videlem.click()
+# for l in video_haru:
+#     driver = webdriver.Chrome('C:/Users/pk202/OneDrive/Desktop/chromedriver/chromedriver.exe')
+#     driver.get(l)
+#     videlem = driver.find_element_by_css_selector('#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button')
+#     time.sleep(2)
+#     videlem.click()

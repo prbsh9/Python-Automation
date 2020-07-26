@@ -1,0 +1,5 @@
+Plan or what to do:
+    1. extract frames from video.
+    2. extract text from image and write that text on another image.
+    3. save image accordingly on another folder
+    4. combine the pictures, add logo, upload to youtube.

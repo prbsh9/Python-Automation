@@ -1,0 +1,4 @@
+name, episode
+Black Clover (TV) ,132
+Plunderer ,17
+Tower of god,5
